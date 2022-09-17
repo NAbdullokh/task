@@ -14,7 +14,6 @@ export const Button = ({
 }) => {
   return (
     <Container
-      className="nocopy"
       mr={mr}
       ml={ml}
       mb={mb}

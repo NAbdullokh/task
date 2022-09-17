@@ -4,8 +4,8 @@ const getType = (type) => {
   switch (type) {
     case "primary":
       return {
-        color: "#46A358",
-        border: " 1px solid #46A358",
+        color: "var(--redColor)",
+        border: " 1px solid var(--redColor)",
       };
 
     default:

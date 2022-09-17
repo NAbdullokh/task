@@ -1,5 +1,11 @@
+import LastAdded from "../../components/LastAdded";
+
 const Home = () => {
-  return;
+  return (
+    <div>
+      <LastAdded />
+    </div>
+  );
 };
 
 export default Home;
