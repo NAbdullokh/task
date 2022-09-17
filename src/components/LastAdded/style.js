@@ -86,3 +86,7 @@ export const BtnWrapper = styled.div`
     gap: 20px;
   }
 `;
+
+CardWrapper.Line = styled.img`
+  margin-top: 100px;
+`;

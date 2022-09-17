@@ -7,6 +7,7 @@ import downLine from "../../assets/icon/downLine.svg";
 import linegraph from "../../assets/icon/linegrapgh.svg";
 import { BtnWrapper, Card, CardWrapper, Container, Wrapper } from "./style";
 import Button from "../../generic/Button";
+import Calculator from "../Calculator";
 
 const LastAdded = () => {
   return (
@@ -34,12 +35,13 @@ const LastAdded = () => {
           <BtnWrapper>
             <Button width={"340px"}>Полный каталог недвижимости</Button>
             <Button width={"340px"} type="primary">
-              Аналитика цен за 1 кв.м.{" "}
+              Аналитика цен за 1 кв.м.
               <img style={{ marginLeft: "10px" }} src={linegraph} alt="" />
             </Button>
           </BtnWrapper>
+          <CardWrapper.Line src={downLine} alt="" />
         </CardWrapper>
-        <img src={downLine} alt="" />
+        <Calculator />
       </Container>
     </Wrapper>
   );
